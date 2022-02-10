@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#read command asking for folder name
+read -p "Typre the name of the folder you would like to create :" folderName
+
+#execute the .sh, create the folder
+mkdir "$folderName"
+
+exit 0
