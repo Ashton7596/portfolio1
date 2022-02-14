@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+./ipinfo.sh
+
+#./ipinfo.sh > output.txt
+
+
+./ipinfo.sh | sed -n '/IP Address/p' output.txt 
